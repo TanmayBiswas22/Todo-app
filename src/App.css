@@ -1,0 +1,53 @@
+.myForm {
+  display: flex;
+  /* padding: 10px; */
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 70%;
+}
+
+.list-wrapper {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+.list-item{
+    display: flex;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 32px;
+  }
+ 
+  .completed-task{
+    background-color: lightgreen;
+    border: 1px solid green;
+    }  
+
+  .bucketlist{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid darkgrey;
+  }
+  .action-buttons{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+  }
+  .bucket-label{
+    padding: 3px;
+    background-color: skyblue;
+    margin-right: 5px;
+  }
+
+  .my-task-list{
+    border: 3px solid darkviolet;
+    padding: 5px;
+  }
